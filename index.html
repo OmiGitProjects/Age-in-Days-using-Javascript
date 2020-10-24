@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Adding Bootstrap 5 CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>AGE IN DAYS</title>
+</head>
+<body>
+
+    <!-- Let's Create our Model -->
+    <div class="container mt-3">
+        <h1 class='text-danger text-center'>Age in Days Using Vanilla Javascript!</h1>
+        <div class="flex_container-1 mt-3">
+            <div class="button_1">
+                <button class='btn btn-success' id='clickme' onclick='ageinDays()'>Click Me</button>
+            </div>
+            <div class="button_2">
+                <button class="btn btn-warning" id='reset' onclick='reset()'>Reset</button>
+            </div>
+        </div>
+
+        <div class="flex_result">
+            <div class="result" id='result'></div>
+        </div>
+    </div>
+    
+</body>
+<script src="js/main.js"></script>
+</html>
